@@ -8,3 +8,4 @@ https://raw.githubusercontent.com/michaelr0/blocklists/main/dist/blocklist.txt
 
 ## Credits
 - [File Extension TLDs - @brunomiguel/adguardhome-block-zip-tld](https://github.com/brunomiguel/adguardhome-block-zip-tld)
+- [adguard/hostlist-compiler](https://github.com/AdguardTeam/HostlistCompiler)
