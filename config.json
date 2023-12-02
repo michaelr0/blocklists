@@ -1,0 +1,17 @@
+{
+    "name": "MichaelR0's Blocklists",
+    "description": "Block the things",
+    "homepage": "https://github.com/michaelr0/blocklists",
+    "license": "GPLv3",
+    "sources": [
+        {
+            "name": "File Extension TLDs",
+            "source": "src/file-extension-tlds.txt",
+            "transformations": [
+                "RemoveEmptyLines",
+                "TrimLines",
+                "Compress"
+            ]
+        }
+    ]
+}

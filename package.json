@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build": "npm run compiler -- --config config.json --output dist/blocklist.txt",
+    "compiler": "node_modules/.bin/hostlist-compiler"
+  },
+  "dependencies": {
+    "@adguard/hostlist-compiler": "^1.0.23"
+  }
+}
