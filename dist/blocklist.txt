@@ -2,8 +2,8 @@
 ! Title: MichaelR0's Blocklists
 ! Description: Block the things
 ! Homepage: https://github.com/michaelr0/blocklists
-! License: GPLv3
-! Last modified: 2023-12-02T09:20:27.530Z
+! License: MIT
+! Last modified: 2023-12-02T21:10:18.204Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.23
 !
