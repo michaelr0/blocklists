@@ -1,0 +1,26 @@
+!
+! Title: MichaelR0's Blocklists
+! Description: Block the things
+! Homepage: https://github.com/michaelr0/blocklists
+! License: GPLv3
+! Last modified: 2023-12-02T09:20:27.530Z
+!
+! Compiled by @adguard/hostlist-compiler v1.0.23
+!
+!
+! Source name: File Extension TLDs
+! Source: src/file-extension-tlds.txt
+!
+! Credit: https://github.com/brunomiguel/adguardhome-block-zip-tld
+! -------------------------------------------------------------------------------------------------------- !
+! Block the new zip tld                                                                                    !
+! Why? See links below ↓                                                                                   !
+! https://medium.com/@bobbyrsec/the-dangers-of-googles-zip-tld-5e1e675e59a5                                !
+! https://www.bleepingcomputer.com/news/security/new-zip-domains-spark-debate-among-cybersecurity-experts/ !
+! -------------------------------------------------------------------------------------------------------- !
+/(\.|^)zip$/$important
+! -------------------------------------------------------------------------------------------------------- !
+! Block the new mov tld                                                                                    !
+! Why? For the same reasons as the zip tld                                                                 !
+! -------------------------------------------------------------------------------------------------------- !
+/(\.|^)mov$/$important
